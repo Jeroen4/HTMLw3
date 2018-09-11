@@ -32,7 +32,7 @@ a:hover{
   color: rgb(0, 0, 26);
 }
 nav{
-  width: 100%;
+  width: inherit;
   display: inline;
 }
 nav ul{
@@ -65,7 +65,7 @@ nav ul li:hover{
   margin-top: 5px;
 }
  main{
-  width: 100%;
+  width: inherit;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -118,7 +118,7 @@ aside{
   border-radius: 5px;
 }
 .footer{
-  width: 100%;
+  width: inherit;
   color: rgb(255, 175, 26);
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
