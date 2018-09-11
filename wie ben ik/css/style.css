@@ -5,8 +5,6 @@
 body{
   font-family:consolas, monaco;
   background-color:  #e6e6e6;
-  margin-left: 15%;
-  margin-right: 15%;
   background-image: url("grfx/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +29,7 @@ a{
   text-decoration: underline;
 }
 a:hover{
-  color: rgb(255, 100, 26);
+  color: rgb(0, 0, 26);
 }
 nav{
   width: 100%;
@@ -94,6 +92,7 @@ aside{
   padding: 5px;
   margin-top: 5px;
   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
 }
 #voetbal{
   max-width: 100%;
@@ -102,7 +101,16 @@ aside{
   height: 80px;
   padding: 5px;
 }
+#opdrcontainer{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .opdrachten{
+  display: flex;
+  flex-direction: column;
   width: 500px;
   height: 250px;
   margin: 4px;
