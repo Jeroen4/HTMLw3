@@ -49,15 +49,19 @@ nav ul li a{
   text-decoration: none;
 }
 nav ul li a:hover{
-  color: white;
+  color: black;
 }
 nav ul li{
   padding: 10px;
   display: inline-block;
   border-radius: 5px;
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 nav ul li:hover{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 #wrapper{
   display: flex;
