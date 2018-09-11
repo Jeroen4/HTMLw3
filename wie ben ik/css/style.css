@@ -4,7 +4,6 @@
 }
 body{
   font-family:consolas, monaco;
-  background-color:  #e6e6e6;
   background-image: url("grfx/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +24,7 @@ h2{
   border-radius: 5px;
 }
 a{
-  color: rgb(255, 175, 26);
+  color: rgb(255, 50, 26);
   text-decoration: underline;
 }
 a:hover{
@@ -94,11 +93,15 @@ aside{
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
 }
+#how{
+  width: 650px;
+  height: 300px;
+}
 #voetbal{
   max-width: 100%;
   max-height: 100%;
-  width: 325px;
-  height: 80px;
+  width: 650px;
+  height: 120px;
   padding: 5px;
 }
 #opdrcontainer{
