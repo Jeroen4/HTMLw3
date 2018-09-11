@@ -117,6 +117,9 @@ aside{
   border: 1px solid black;
   border-radius: 5px;
 }
+#textpage2{
+  width: 550px;
+}
 .footer{
   width: inherit;
   color: rgb(255, 175, 26);
