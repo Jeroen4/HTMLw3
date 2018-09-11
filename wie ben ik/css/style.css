@@ -3,7 +3,6 @@
   padding:0;
 }
 body{
-  width: 100%;
   font-family:consolas, monaco;
   background-image: url("grfx/bg2.jpg");
   background-repeat: no-repeat;
@@ -55,6 +54,7 @@ nav ul li a:hover{
 nav ul li{
   padding: 10px;
   display: inline-block;
+  border-radius: 5px;
 }
 nav ul li:hover{
   background-color: rgba(0, 0, 0, 0.8);
