@@ -3,6 +3,7 @@
   padding:0;
 }
 body{
+  width: 100%;
   font-family:consolas, monaco;
   background-image: url("grfx/bg2.jpg");
   background-repeat: no-repeat;
