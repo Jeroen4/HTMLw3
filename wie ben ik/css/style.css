@@ -2,40 +2,61 @@
   margin: 0;
   padding:0;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 175, 26);
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 175, 26, 0.9); 
+}
+
 body{
   font-family:consolas, monaco;
   background-image: url("grfx/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-ol{
-  list-style: none;
-}
+
 h1{
   color:black;
   background-color: rgb(255, 175, 26);
   padding: 5px;
   border-radius: 5px;
 }
+
 h2{
   color:black;
   background-color: rgb(255, 175, 26);
   padding: 5px;
   border-radius: 5px;
 }
+
 a{
   color: rgb(255, 50, 26);
   text-decoration: underline;
 }
+
 a:hover{
   color: rgb(0, 0, 26);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 nav{
   width: inherit;
   display: inline;
 }
+
 nav ul{
   list-style: none;
   height: 100%;
@@ -46,30 +67,36 @@ nav ul{
   margin: 0 auto;
   margin-top: 5px;
 }
+
 nav ul li a{
   color: white;
   text-decoration: none;
 }
+
 nav ul li a:hover{
   color: black;
 }
+
 nav ul li{
   padding: 10px;
-  display: inline-block;
   border-radius: 5px;
+  display: inline-block;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 nav ul li:hover{
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 #wrapper{
   display: flex;
   flex-direction: row;
   margin-top: 5px;
 }
+
  main{
   width: inherit;
   display: flex;
@@ -80,6 +107,7 @@ nav ul li:hover{
   margin-top: 5px;
   border-radius: 5px;
 }
+
 #main-beroep{
   width: 50%;
   display: flex;
@@ -90,6 +118,7 @@ nav ul li:hover{
   margin-top: 5px;
   border-radius: 5px;
 }
+
 aside{
   width: 50%;
   display: flex;
@@ -100,26 +129,31 @@ aside{
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
 }
+
 #how{
   width: 650px;
   height: 300px;
 }
+
 #voetbal{
   max-width: 100%;
   max-height: 100%;
   width: 650px;
-  height: 120px;
+  height: 140px;
   padding: 5px;
   margin-left: 8px;
   border-radius: 10px;
 }
+
 #opdrcontainer{
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 10px;
 }
+
 .opdrachten{
   display: flex;
   flex-direction: column;
@@ -129,9 +163,12 @@ aside{
   border: 1px solid black;
   border-radius: 5px;
 }
+
 #textpage2{
   width: 550px;
+  margin-top: 20px;
 }
+
 .footer{
   width: inherit;
   color: rgb(255, 175, 26);
@@ -139,8 +176,8 @@ aside{
   border-radius: 5px;
   margin-top: 5px;
   padding: 5px;
-
 }
+
 .personalia{
   font-size: 25px;
 }
