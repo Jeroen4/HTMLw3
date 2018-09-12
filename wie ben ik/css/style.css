@@ -1,24 +1,29 @@
+/*-------------------------------------------------------OVERALL-------------------------------------*/
+
 *{
   margin: 0;
   padding:0;
 }
+
+/*--------------------------------------------------------SCROLLBAR----------------------------------*/
 
 ::-webkit-scrollbar {
   width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(0,0,0,0.5); 
+  background-color: rgba(0,0,0,0.4); 
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(255, 175, 26);
-  border-radius: 10px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 175, 26, 0.9); 
+  background-color: rgba(255, 175, 26, 0.8); 
 }
+
+/*--------------------------------------------------------BODY---------------------------------------*/
 
 body{
   font-family:consolas, monaco;
@@ -26,6 +31,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*--------------------------------------------------------HEADS--------------------------------------*/
 
 h1{
   color:black;
@@ -41,6 +48,8 @@ h2{
   border-radius: 5px;
 }
 
+/*--------------------------------------------------------HYPERLINKS---------------------------------*/
+
 a{
   color: rgb(255, 50, 26);
   text-decoration: underline;
@@ -51,6 +60,12 @@ a:hover{
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
+nav ul li a:hover{
+  color: black;
+}
+
+/*--------------------------------------------------------NAVIGATION BAR-----------------------------*/
 
 nav{
   width: inherit;
@@ -73,9 +88,6 @@ nav ul li a{
   text-decoration: none;
 }
 
-nav ul li a:hover{
-  color: black;
-}
 
 nav ul li{
   padding: 10px;
@@ -91,11 +103,7 @@ nav ul li:hover{
   transition-duration: 0.3s;
 }
 
-#wrapper{
-  display: flex;
-  flex-direction: row;
-  margin-top: 5px;
-}
+/*--------------------------------------------------------TEXT---------------------------------------*/
 
  main{
   width: inherit;
@@ -129,6 +137,12 @@ aside{
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
 }
+#textpage2{
+  width: 550px;
+  margin-top: 20px;
+}
+
+/*--------------------------------------------------------IMAGES-------------------------------------*/
 
 #how{
   width: 650px;
@@ -145,15 +159,6 @@ aside{
   border-radius: 10px;
 }
 
-#opdrcontainer{
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10px;
-}
-
 .opdrachten{
   display: flex;
   flex-direction: column;
@@ -164,10 +169,28 @@ aside{
   border-radius: 5px;
 }
 
-#textpage2{
-  width: 550px;
-  margin-top: 20px;
+/*--------------------------------------------------------WRAPPERS-----------------------------------*/
+
+#opdrcontainer{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
 }
+
+#wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.personalia{
+  font-size: 25px;
+}
+
+/*--------------------------------------------------------FOOTER-------------------------------------*/
 
 .footer{
   width: inherit;
@@ -178,9 +201,7 @@ aside{
   padding: 5px;
 }
 
-.personalia{
-  font-size: 25px;
-}
+/*--------------------------------------------------------MEDIA QUERY--------------------------------*/
 
 /*MEDIA QUERY 
 
